@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.result {
+  height: 60px;
+  background-color: #e4f9f5;
+  width: 100%;
+  border-radius: 7px;
+  /* border: 5px solid red; */
+  box-shadow: 0 1px 5px #35d0ba;
+}
+
+.result p {
+  font-size: 40px;
+  color: #35d0ba;
+}
+
+.result textarea {
+  box-sizing: border-box;
+}
+
+.calc-body {
+  max-width: 400px;
+  margin: auto;
+  margin: 30px auto 20px auto;
+  padding: 15px;
+  border-radius: 7px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 5px #e4f9f5;
+}
+.equal-to button {
+  width: 100%;
+}
+
+.buttons {
+  display: block;
+  background-color: #f0fff3;
+
+  box-shadow: 0 1px 5px #35d0ba;
+}
+
+.buttons button {
+  width: 25%;
+  height: 40px;
+  font-size: 30px;
+  background-color: #f0fff3;
+  border-radius: 8px;
+  color: #35d0ba;
+  border: 2px solid #c6f1e7;
+}
+
+.buttons button:hover {
+  color: #63b7af !important;
+  background: #abf0e9;
+}
+
+.calc-body {
+  margin: 30px auto 20px auto;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px #35d0ba;
+  color: #3cc4c9;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  padding: 0 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  background-color: #35d0ba;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+}
+
+header h1 {
+  color: #ffffff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}

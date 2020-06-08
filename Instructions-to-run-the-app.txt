@@ -1,0 +1,10 @@
+Steps:
+1. Unzip the folder.
+2. in terminal cd over to the file destination(for eg. cd Desktop/folder_name if it is on desktop).
+3. run the command- npm install(it will take few minutes 10 mins approx depending on the network).
+4. run the command- npm start
+5. The browser will open automatically with the app.
+
+OR if it does not work you can check out my codesandbox - https://codesandbox.io/s/immutable-rain-bb2v7?file=/src/components/App.jsx
+
+just paste the above link in the browser, it will start like regular VSCode environment.
